@@ -1,0 +1,35 @@
+button{
+    -o-animation: color-change 2s infinite;
+    -webkit-animation: color-change 2s infinite;
+    animation: color-change 2s infinite;
+    -moz-animation: color-change 2s infinite;    
+}
+@-moz-keyframes color-change{
+    0% {color: rgb(228, 22, 200);}
+    25%{color: rgb(19, 102, 180);}
+    50% {color: rgb(202, 147, 27);}
+    75%{color: rgb(216, 32, 32);}
+    100% {color: rgb(196, 21, 59);}
+}
+@-o-keyframes color-change{
+    0% {color: rgb(228, 22, 200);}
+    25%{color: rgb(19, 102, 180);}
+    50% {color: rgb(202, 147, 27);}
+    75%{color: rgb(216, 32, 32);}
+    100% {color: rgb(196, 21, 59);}
+}
+@-webkit-keyframes color-change{
+    0% {color: rgb(228, 22, 200);}
+    25%{color: rgb(19, 102, 180);}
+    50% {color: rgb(202, 147, 27);}
+    75%{color: rgb(216, 32, 32);}
+    100% {color: rgb(196, 21, 59);}
+}
+@keyframes color-change{
+    0% {color: rgb(228, 22, 200);}
+    25%{color: rgb(19, 102, 180);}
+    50% {color: rgb(202, 147, 27);}
+    75%{color: rgb(216, 32, 32);}
+    100% {color: rgb(196, 21, 59);}
+}
+
